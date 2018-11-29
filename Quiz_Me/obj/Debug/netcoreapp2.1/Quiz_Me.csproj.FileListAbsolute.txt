@@ -1,0 +1,8 @@
+C:\Users\Scott\source\repos\Quiz_Me\Quiz_Me\bin\Debug\netcoreapp2.1\Quiz_Me.deps.json
+C:\Users\Scott\source\repos\Quiz_Me\Quiz_Me\bin\Debug\netcoreapp2.1\Quiz_Me.runtimeconfig.json
+C:\Users\Scott\source\repos\Quiz_Me\Quiz_Me\bin\Debug\netcoreapp2.1\Quiz_Me.runtimeconfig.dev.json
+C:\Users\Scott\source\repos\Quiz_Me\Quiz_Me\bin\Debug\netcoreapp2.1\Quiz_Me.dll
+C:\Users\Scott\source\repos\Quiz_Me\Quiz_Me\obj\Debug\netcoreapp2.1\Quiz_Me.csprojAssemblyReference.cache
+C:\Users\Scott\source\repos\Quiz_Me\Quiz_Me\obj\Debug\netcoreapp2.1\Quiz_Me.csproj.CoreCompileInputs.cache
+C:\Users\Scott\source\repos\Quiz_Me\Quiz_Me\obj\Debug\netcoreapp2.1\Quiz_Me.AssemblyInfoInputs.cache
+C:\Users\Scott\source\repos\Quiz_Me\Quiz_Me\obj\Debug\netcoreapp2.1\Quiz_Me.AssemblyInfo.cs
