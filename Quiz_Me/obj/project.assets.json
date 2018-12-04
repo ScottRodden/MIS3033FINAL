@@ -3107,11 +3107,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Scott\\source\\repos\\Quiz_Me\\Quiz_Me\\Quiz_Me.csproj",
+      "projectUniqueName": "C:\\Users\\Scott\\Source\\Repos\\ScottRodden\\MIS3033FINAL\\Quiz_Me\\Quiz_Me.csproj",
       "projectName": "Quiz_Me",
-      "projectPath": "C:\\Users\\Scott\\source\\repos\\Quiz_Me\\Quiz_Me\\Quiz_Me.csproj",
+      "projectPath": "C:\\Users\\Scott\\Source\\Repos\\ScottRodden\\MIS3033FINAL\\Quiz_Me\\Quiz_Me.csproj",
       "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Scott\\source\\repos\\Quiz_Me\\Quiz_Me\\obj\\",
+      "outputPath": "C:\\Users\\Scott\\Source\\Repos\\ScottRodden\\MIS3033FINAL\\Quiz_Me\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -17,6 +17,11 @@ namespace Quiz_Me
 {
     public class Function
     {
+        //Create dictionary
+        Dictionary<string, string> questions = new Dictionary<string, string>();
+
+      
+        
 
 
         private static HttpClient httpClient;
@@ -98,7 +103,7 @@ namespace Quiz_Me
             public string CorrectLetter { get; set; }
         }
 
-
+        
 
 
 
