@@ -96,14 +96,7 @@ namespace Quiz_Me
             return input?.ToUpper();
         }
 
-        public class Course
-        {
-            public string Question { get; set; }
-            public string Answer { get; set; }
-            public string CorrectLetter { get; set; }
-        }
-
-        
+              
 
 
 
