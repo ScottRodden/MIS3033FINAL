@@ -17,9 +17,11 @@ namespace Quiz_Me
 {
     public class Function
     {
-       
 
-
+        string[] historyanswer = new string[] { "George Washington", "Donald Trump", "Abraham Lincoln" };
+        string[] historyanswerletter = new string[] { "A", "B", "D" };
+        string[] scienceanswer = new string[] { "Jupiter", "Lava", "Cerebrum" };
+        string[] scienceanswerletter = new string[] { "C", "D", "A" };
 
         public SkillResponse FunctionHandler(SkillRequest input, ILambdaContext context)
         {
@@ -113,6 +115,7 @@ namespace Quiz_Me
             public string AnswerLetter { get; set; }
        }
 
+        
 
 
     }
