@@ -1,0 +1,20 @@
+
+        public IEnumerable<TValue> Random<TKey, TValue>(IDictionary<TKey, TValue> dict)
+
+        {
+
+            Random question = new Random();
+
+            List<TValue> values = Enumerable.ToList(dict.Values);
+
+            int size = dict.Count;
+
+            while (true)
+
+            {
+
+                yield return values[question.Next(size)];
+
+            }
+
+        }
