@@ -17,19 +17,14 @@ namespace Quiz_Me
 {
     public class Function
     {
+       
 
 
-        private static HttpClient httpClient;
 
-        public Function()
+        public SkillResponse FunctionHandler(SkillRequest input, ILambdaContext context)
         {
-            httpClient = new HttpClient();
-        }
-
-        public async Task<SkillResponse> FunctionHandler(SkillRequest input, ILambdaContext context)
-        {
-            var requestType = input.GetRequestType();
             string outputText = "";
+            var requestType = input.GetRequestType();
 
             if (requestType == typeof(LaunchRequest))
             {
@@ -59,6 +54,12 @@ namespace Quiz_Me
                     {
                         return BodyResponse("I dont know how to handle this intent. Fatal error. Will self destruct in ten seconds.", false);
                     }
+
+                    var courseInfo = await GetCourseInfo(Course);
+                    {
+                        outputText 
+                    }
+                
                 }
             }
         }
@@ -91,15 +92,28 @@ namespace Quiz_Me
             return input?.ToUpper();
         }
 
-        public class Course
-        {
+          
+      
+       public class History
+       {
             public string Question { get; set; }
+
             public string Answer { get; set; }
-            public string CorrectLetter { get; set; }
-        }
+
+            public string AnswerLetter { get; set; }
+
+       }
+
+        public class Science
+       {
+            public string Question { get; set; }
+
+            public string Answer { get; set; }
+            
+            public string AnswerLetter { get; set; }
+       }
 
 
 
-       
     }
 }
