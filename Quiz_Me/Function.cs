@@ -17,11 +17,7 @@ namespace Quiz_Me
 {
     public class Function
     {
-        //Create dictionary
-        Dictionary<string, string> questions = new Dictionary<string, string>();
-
-      
-        
+         
 
 
         private static HttpClient httpClient;
@@ -31,10 +27,10 @@ namespace Quiz_Me
             httpClient = new HttpClient();
         }
 
-        public async Task<SkillResponse> FunctionHandler(SkillRequest input, ILambdaContext context)
+        public SkillResponse FunctionHandler(SkillRequest input, ILambdaContext context)
         {
-            var requestType = input.GetRequestType();
             string outputText = "";
+            var requestType = input.GetRequestType();
 
             if (requestType == typeof(LaunchRequest))
             {
@@ -96,7 +92,9 @@ namespace Quiz_Me
             return input?.ToUpper();
         }
 
-              
+          
+      
+
 
 
 
