@@ -17,15 +17,9 @@ namespace Quiz_Me
 {
     public class Function
     {
-         
+       
 
 
-        private static HttpClient httpClient;
-
-        public Function()
-        {
-            httpClient = new HttpClient();
-        }
 
         public SkillResponse FunctionHandler(SkillRequest input, ILambdaContext context)
         {
@@ -60,6 +54,12 @@ namespace Quiz_Me
                     {
                         return BodyResponse("I dont know how to handle this intent. Fatal error. Will self destruct in ten seconds.", false);
                     }
+
+                    var courseInfo = await GetCourseInfo(Course);
+                    {
+                        outputText 
+                    }
+                
                 }
             }
         }
@@ -94,9 +94,26 @@ namespace Quiz_Me
 
           
       
+       public class History
+       {
+            public string Question { get; set; }
 
+            public string Answer { get; set; }
 
+            public string AnswerLetter { get; set; }
 
+       }
+
+        public class Science
+       {
+            public string Question { get; set; }
+
+            public string Answer { get; set; }
+            
+            public string AnswerLetter { get; set; }
+       }
+
+        
 
     }
 }
