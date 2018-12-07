@@ -1,0 +1,15 @@
+String[] historyquestion = new String[3];
+        historyquestion[0] = "Who was the first President of the United States? A. George Washington, B. Abraham Lincoln, C. Thomas Jefferson, D. James Madison";
+        historyquestion[1] = "Who is the current president as of 2018? A. George Bush, B. Donald Trump, C. Barak Obama, D. Bill Clinton";
+        historyquestion[2] = "Who was the 16th president of the United States? A. Ronald Reagan, B. Andrew Johnson, C. John F. Kennedy, D. Abraham Lincoln";
+        String[] historyanswers = { "George Washington", "Donald Trump", "Abraham Lincoln" };
+        String[] historyanswerletter = { "A", "B", "D" };
+
+        string answer;
+        
+String[] sciencequestion = new string[3];
+        sciencequestion[0] = "What is the largest planet in the solar system? A. Mars, B. Venus, C. Jupiter, D. Pluto"
+        sciencequestion[1] = "What is the name of molten rock after an eruption? A. Magma, B. Obsidian, C. Granite, D. Lava"
+        sciencequestion[2] = "What do you call the largest part of the human brain? A. Cerebrum, B. Cerebellum, C. Thalamus, D. Hippocampus"
+        String[] scienceanswer = { "Jupiter", "Lava", "Cerebrum" };
+        String[] scienceanswerletter = { "C", "D", "A" };
